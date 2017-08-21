@@ -1,0 +1,59 @@
+html, body { margin: 0; padding: 0; background: #333; color: #FFF; font: 12px/1.5 sans-serif; }
+body{
+    text-align: center;
+}
+.intro{
+    margin: 10px;
+}
+.content img{
+    display: block;
+    width: 100%;
+}
+input,button{
+    font: 14px/1.5 sans-serif;
+}
+input{
+    box-shadow: none;
+    border: none;
+}
+.content { position: relative; }
+.q1, .q2, .q3, .a1, .a2, .a3 {
+    position: absolute;
+    top: 0;
+    max-width: 35%;
+    background: transparent;
+}
+.q1{
+    top:3%;
+    left: 8%;
+}
+.a1{
+    top:3%;
+    left:58%;
+}
+.q2{
+    top:36%;
+    left: 8%;
+}
+.a2{
+    top:36%;
+    left:58%;
+}
+.q3{
+    top:70%;
+    left: 8%;
+}
+.a3{
+    top:70%;
+    left:58%;
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    background: #090;
+    color: #FFFFFF;
+    box-shadow: 1px 1px 5px #111;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
